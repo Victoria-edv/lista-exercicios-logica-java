@@ -9,10 +9,17 @@ public class CalculoAB {
         int A = sc.nextInt();
         System.out.print("Digite um valor para B: ");
         int B = sc.nextInt();
+
+        int C;
+
         if (A == B){
-            int soma = A+B;
-            System.out.println("A soma dos valores é: "+ soma);
+             C = A+B;
+        } else {
+             C = A*B;
         }
+
+        // Imprime o valor final de C
+        System.out.println("O valor final de C é: " + C);
         sc.close();
     }
 }
