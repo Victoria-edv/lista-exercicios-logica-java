@@ -18,5 +18,6 @@ public class SomaMenorQueC {
         else {
             System.out.println("A soma de A e B é maior que C");
         }
+        sc.close();
     }
 }
