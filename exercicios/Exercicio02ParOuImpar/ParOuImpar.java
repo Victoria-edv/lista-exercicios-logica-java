@@ -19,7 +19,6 @@ public class ParOuImpar {
         } else {
             System.out.println("E negativo.");
         }
-
         sc.close();
     }
 }
