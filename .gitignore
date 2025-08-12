@@ -1,0 +1,13 @@
+# Arquivos de configurações do IntelliJ
+.idea/
+*.iml
+
+# Arquivos de compilação e output
+/out/
+/target/
+*.class
+
+# Arquivos de log e temporários
+*.log
+*.swp
+*~
