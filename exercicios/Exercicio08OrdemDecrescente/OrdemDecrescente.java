@@ -5,8 +5,11 @@ import java.util.Scanner;
 public class OrdemDecrescente {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Digite um número: ");
         int A = sc.nextInt();
+        System.out.print("Digite um número: ");
         int B = sc.nextInt();
+        System.out.print("Digite um número: ");
         int C = sc.nextInt();
 
         if (A>B && A>C) {
