@@ -9,7 +9,7 @@ public class CalculoIMC {
         sc.useLocale(Locale.US);
         System.out.print("Digite seu peso: ");
         double peso = sc.nextDouble();
-        System.out.print("Digite sua altura (ex: 1.55) ");
+        System.out.print("Digite sua altura (em metros, ex: 1.55) ");
         double altura = sc.nextDouble();
 
         double IMC = peso / (altura * altura);
