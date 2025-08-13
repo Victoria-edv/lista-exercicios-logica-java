@@ -16,7 +16,7 @@ public class MediaNotas {
 
         double media = (nota1+nota2+nota3)/3;
 
-        System.out.printf("A média é: %.2f ", media);
+        System.out.printf(Locale.US,"A média é: %.2f ", media);
 
         sc.close();
     }
