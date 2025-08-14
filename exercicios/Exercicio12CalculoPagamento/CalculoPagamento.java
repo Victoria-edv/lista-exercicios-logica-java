@@ -15,6 +15,7 @@ public class CalculoPagamento {
         System.out.println("3 - Parcelado no cartão em duas vezes, preço normal do produto sem juros");
         System.out.println("4 - Parcelado no cartão em três vezes ou mais, preço normal do produto mais juros de 10%");
         double valorFinal = 0;
+        boolean codigoInvalido = false;
         int codigoPagamento = sc.nextInt();
         switch (codigoPagamento) {
             case 1:
@@ -28,9 +29,14 @@ public class CalculoPagamento {
                 break;
             case 4:
                 valorFinal = valor + valor * 0.10;
+                break;
             default:
+                System.out.println("Opção de pagamento inválida.");
+                codigoInvalido = true;
         }
-        System.out.printf("Valor Final da compra: R$%.2f", valorFinal);
+        if (!codigoInvalido) {
+            System.out.printf("Valor Final da compra: R$%.2f", valorFinal);
+        }
         sc.close();
     }
 }
