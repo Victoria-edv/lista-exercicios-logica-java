@@ -11,7 +11,7 @@ public class Maioridade {
         String nome = sc.nextLine();
         System.out.print("Digite sua idade: ");
         int idade = sc.nextInt();
-        System.out.print("Seu nome é "+ nome);
+        System.out.print("Seu nome é " + nome);
         if (idade<18){
             System.out.println(" e você é menor de idade!");
         } else {
