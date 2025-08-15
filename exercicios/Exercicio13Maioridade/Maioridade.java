@@ -17,9 +17,6 @@ public class Maioridade {
         } else {
             System.out.println(" e você é maior de idade!");
         }
-
-
-
         sc.close();
     }
 }
