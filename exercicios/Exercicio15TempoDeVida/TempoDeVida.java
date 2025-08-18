@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class TempoDeVida {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US);
+        Locale.setDefault(Locale.US);
         System.out.print("Em que ano você nasceu? ");
         int anoNasc = sc.nextInt();
 
