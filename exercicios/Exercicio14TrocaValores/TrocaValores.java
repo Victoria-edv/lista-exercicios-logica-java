@@ -12,7 +12,7 @@ public class TrocaValores {
         System.out.print("Digite um valor para B: ");
         int B = sc.nextInt();
 
-        System.out.println("Valores originais: "+ A +" para A e " + B + " para B");
+        System.out.println("Valores originais: " + A + " para A e " + B + " para B");
 
         System.out.println("-------------------------------------");
 
