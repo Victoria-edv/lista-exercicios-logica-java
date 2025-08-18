@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class CalculoIMC {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US);
+        Locale.setDefault(Locale.US);
         System.out.print("Digite seu peso: ");
         double peso = sc.nextDouble();
         System.out.print("Digite sua altura (em metros, ex: 1.55) ");
