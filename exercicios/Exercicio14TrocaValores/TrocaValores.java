@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class TrocaValores {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US);
+        Locale.setDefault(Locale.US);
         System.out.print("Digite um valor para A: ");
         int A = sc.nextInt();
         System.out.print("Digite um valor para B: ");
