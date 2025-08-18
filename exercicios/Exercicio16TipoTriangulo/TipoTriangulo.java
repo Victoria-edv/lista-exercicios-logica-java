@@ -23,7 +23,7 @@ public class TipoTriangulo {
                 System.out.println("Triângulo Isósceles");
             }
         } else {
-            System.out.println("Os valores informados não formam um triângulo válido.");
+            System.out.println("Os valores não formam um triângulo válido.");
         }
         sc.close();
     }
