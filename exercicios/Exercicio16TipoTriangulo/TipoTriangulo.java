@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class TipoTriangulo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US);
+        Locale.setDefault(Locale.US);
         System.out.print("Digite um valor para 1º lado do triângulo: ");
         int lado1 = sc.nextInt();
         System.out.print("Digite um valor para 2º lado do triângulo: ");
