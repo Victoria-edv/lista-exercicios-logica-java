@@ -76,10 +76,10 @@ Aqui está a lista completa de exercícios e os links para suas respectivas solu
 22. **Faça um algoritmo que leia dois valores inteiros A e B, imprima na tela o quociente e o resto da divisão inteira entre eles.**
     - [Solução](exercicios/Exercicio22QuocienteResto/QuocienteResto.java)
 
-23. **(Originalmente 21) Faça um algoritmo que efetue o cálculo do salário líquido de um professor. As informações fornecidas serão: valor da hora aula, número de aulas lecionadas no mês e percentual de desconto do INSS. Imprima na tela o salário líquido final.**
+23. **Faça um algoritmo que efetue o cálculo do salário líquido de um professor. As informações fornecidas serão: valor da hora aula, número de aulas lecionadas no mês e percentual de desconto do INSS. Imprima na tela o salário líquido final.**
     - [Solução](exercicios/Exercicio23SalarioLiquidoProfessor/SalarioLiquidoProfessor.java)
 
-24. **(Originalmente 22) Faça um algoritmo que calcule a quantidade de litros de combustível gastos em uma viagem, sabendo que o carro faz 12km com um litro. Deve-se fornecer ao usuário o tempo que será gasto na viagem a sua velocidade média, distância percorrida e a quantidade de litros utilizados para fazer a viagem.**
+24. **Faça um algoritmo que calcule a quantidade de litros de combustível gastos em uma viagem, sabendo que o carro faz 12km com um litro. Deve-se fornecer ao usuário o tempo que será gasto na viagem a sua velocidade média, distância percorrida e a quantidade de litros utilizados para fazer a viagem.**
     - [Solução](exercicios/Exercicio24LitrosCombustivel/LitrosCombustivel.java)
 
 ---
