@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Maioridade {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US);
+        Locale.setDefault(Locale.US);
         System.out.print("Digite seu nome: ");
         String nome = sc.nextLine();
         System.out.print("Digite sua idade: ");
