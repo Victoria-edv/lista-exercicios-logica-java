@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class AprovadoReprovado {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US);
+        Locale.setDefault(Locale.US);
         System.out.println("Qual o seu nome? ");
         String nome = sc .nextLine();
         System.out.print("Digite sua 1º nota: ");
@@ -20,7 +20,7 @@ public class AprovadoReprovado {
 
         double media = (nota1+nota2+nota3+nota4)/4;
 
-        System.out.printf(Locale.US,"A média é: %.2f\n ", media);
+        System.out.printf("A média é: %.2f\n ", media);
 
         if (media>=7){
             System.out.println(nome+ ", você está aprovado(a)!");
