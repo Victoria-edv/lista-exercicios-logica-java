@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class MediaNotas {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        sc.useLocale(Locale.US);
+        Locale.setDefault(Locale.US);
         System.out.print("Digite sua 1º nota: ");
         double nota1 = sc.nextDouble();
         System.out.print("Digite sua 2º nota: ");
