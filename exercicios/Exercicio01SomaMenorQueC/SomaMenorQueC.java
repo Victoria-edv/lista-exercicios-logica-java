@@ -11,7 +11,9 @@ public class SomaMenorQueC {
         int B = sc.nextInt();
         System.out.println("Digite um valor para C: ");
         int C = sc.nextInt();
+
         int soma = A+B;
+
         if (soma<C){
             System.out.println("A soma de A e B é menor que C");
         }
